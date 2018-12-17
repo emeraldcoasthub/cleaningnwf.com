@@ -46,7 +46,12 @@
 </template>
 
 <script>
+import QuoteForm from '@/components/QuoteForm.vue';
+
 export default {
+  components: {
+    QuoteForm
+  },
   data() {
     return {
       title: "8 Important Reasons Why You Should Let Us Clean Your Home",

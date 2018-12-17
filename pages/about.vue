@@ -24,19 +24,31 @@
     <div class="box">
       <div class="title is-2 has-text-white has-text-centered">Get a free estimate today</div>
       <div class="subtitle is-4 has-text-white has-text-centered">Just fill our the free estimate form to get a free estimate today.</div>
-
-      <a href="#" class="button is-light is-large is-fullwidth normal-links">Get a free quote</a>
     </div>
   </div>
+
+  <div class="container estimate-cta">
+    <div class="columns is-centered">
+      <div class="column is-6">
+        <QuoteForm/>
+      </div>
+    </div>
+  </div>
+
   </div>
 </template>
 
 <script>
+import QuoteForm from "@/components/QuoteForm.vue";
+
 export default {
-  data() {
+  components: {
+    QuoteForm
+  },
+  data () {
     return {
       pageTitle: "About Us"
-    };
+    }
   }
 };
 </script>

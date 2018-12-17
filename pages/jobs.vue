@@ -10,7 +10,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import JobForm from "@/components/JobForm.vue";
 
 export default {

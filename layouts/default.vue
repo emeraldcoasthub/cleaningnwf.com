@@ -26,6 +26,21 @@
     </nav>
     <nuxt/>
   </div>
+
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All Rights Reserved. Web design and hosting by <a href="http://picreativemarketing.com">Perfect Imprints</a>.
+    </p>
+    <a style="color: #2AAFB8" href="https://https://www.facebook.com/homecleaningco">
+      <b-icon
+        icon="facebook"
+        size="is-large">
+      </b-icon>
+    </a>
+  </div>
+</footer>
+
   </div>
 </template>
 
@@ -46,10 +61,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-#nav a.nuxt-link-exact-active {
+#nav>a.nuxt-link-exact-active {
   background-color: #377e7f !important;
 }
-#nav a {
+#nav > nav > div > div.navbar-menu > div > a {
   font-size: 1.2em;
   font-weight: bold;
   color: white;
@@ -69,5 +84,8 @@ a.navbar-item.is-active,
   color: white !important;
   text-align: center;
   background-color: #50b098;
+}
+.footer {
+    padding: 3rem 1.5rem 3rem !important;
 }
 </style>
