@@ -42,6 +42,38 @@
         </div>
       </div>
     </div>
+    <section class="section has-background-white-ter">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="columm is-6">
+            <h2 class="title is-1">Isn't Your Time More Valuable?</h2>
+            <h3 class="subtitle is-4">Let us do your cleaning while you enjoy life!</h3>
+            <nuxt-link class="button is-large" to="/about">Request your free estimate</nuxt-link>
+          </div>
+          <div class="columm is-4">
+            <p style="margin-top: 1em">"Time" is a commodity most busy people just don't seem to have enough of these days. 
+              For many upwardly mobile and dual income families today, the home we've worked so hard 
+              to obtain is a time-consuming chore to maintain.</p>
+            <p>Home Cleaning Company can give you more time to do these things you need to do and 
+              would rather be doing, instead of spending endless hours on mundane housework.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered">THE HOME CLEANING COMPANY "A-Z" HOME CLEANING SYSTEM INCLUDES:</h2>
+        <div class="columns is-centered">
+
+          <div v-bind:key="include" v-for="include in includes" class="column is-3">
+            <div class="box has-text-white has-text-weight-semibold">
+              <h3 class="title has-text-white is-3">{{ include.title }}</h3>
+              <p>{{ include.text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -56,6 +88,24 @@ export default {
     return {
       pageTitle: 'Home Cleaning Company - Fort Walton Beach - Destin - Niceville',
       title: "8 Important Reasons Why You Should Let Us Clean Your Home",
+      includes: [
+        {
+          title: 'General Cleaning',
+          text: 'Dust, polish or wipe all furnishings, baseboards, window sills, and shelves. Vacuum or mop all floors; carpet or bare.'
+        },
+        {
+          title: 'Kitchen',
+          text: 'Clean sink, counter tops, outside of cupboards and drawer fronts, refrigerator, stove, other appliances and floor.'
+        },
+        {
+          title: 'Bathrooms',
+          text: 'Clean and disinfect tub, showers, toilets and floor. We also clean and polish sinks, fixtures, vanities and mirrors.'
+        },
+        {
+          title: 'Special Tasks',
+          text: 'Ovens, refrigerators, patios, and decks. Change linens. Moving day cleanups as well as spring, and fall cleanings.'
+        },
+      ],
       reasonsLine1: [
         {
           icon: "./icons/icon1.png",
@@ -129,6 +179,9 @@ We use the Big Vac, which cleans like ordinary vacuums can't. A technological ed
 </script>
 
 <style>
+.system-includes {
+  margin-top: 2em;
+}
 .slide {
   margin-top: 2em;
 }
