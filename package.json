@@ -1,7 +1,7 @@
 {
-  "name": "test-nuxt",
+  "name": "cleaningnwf",
   "version": "1.0.0",
-  "description": "My splendiferous Nuxt.js project",
+  "description": "Cleaning NWF",
   "author": "Patrick Black Jr",
   "private": true,
   "scripts": {

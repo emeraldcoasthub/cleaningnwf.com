@@ -61,7 +61,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-#nav>a.nuxt-link-exact-active {
+.nuxt-link-exact-active {
   background-color: #377e7f !important;
 }
 #nav > nav > div > div.navbar-menu > div > a {

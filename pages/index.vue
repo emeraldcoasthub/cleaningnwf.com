@@ -54,6 +54,7 @@ export default {
   },
   data() {
     return {
+      pageTitle: 'Home Cleaning Company - Fort Walton Beach - Destin - Niceville',
       title: "8 Important Reasons Why You Should Let Us Clean Your Home",
       reasonsLine1: [
         {
@@ -81,7 +82,7 @@ export default {
           title: "Reliable",
           subtitle: "Our staff is responsible, reliable, and insured.",
           text: `Our house cleaning technicians are thoroughly screened, professionally trained, covered by workers compensation and compensated for results and customer satisfaction.
-We are locally owned, operated and licensed. Our staff consists of employees - not unsupervised independent contracts as is the case with many residential cleaning services and your assigned team will show up on time as scheduled, nearly groomed, always uniformed and ready to work.`
+We are locally owned, operated and licensed. Our staff consists of employees - not unsupervised independent contractors as is the case with many residential cleaning services and your assigned team will show up on time as scheduled, neatly groomed, always uniformed and ready to work.`
         },
         {
           icon: "./icons/icon5.png",
@@ -115,7 +116,15 @@ We use the Big Vac, which cleans like ordinary vacuums can't. A technological ed
         }
       ]
     };
-  }
+  },
+  head () {
+    return {
+      title: this.pageTitle,
+      meta: [
+        { hid: 'description', name: 'description', content: 'Let us clean your home. We are professionals.' }
+      ]
+    }
+  },
 };
 </script>
 
