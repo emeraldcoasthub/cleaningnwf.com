@@ -3,7 +3,7 @@
     <div class="slide image is-centered">
       <div class="columns is-centered">
         <div class="column is-10">
-          <img src="@/assets/slide.jpg" alt="Call now for your free estimate: 863-4675. Celebrating 26 years!" />
+          <img src="~assets/slide.jpg" alt="Call now for your free estimate: 863-4675. Celebrating 26 years!" />
         </div>
       </div>
     </div>
