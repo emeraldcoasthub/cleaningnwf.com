@@ -17,52 +17,6 @@
         <div class="column is-12">
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBNFJVJSyflF_XcBvz8tJO_4qIRoa6EL5AfuA6gyEge6gPYQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
-        <!-- <div class="column is-2">
-          <b-field label="First Name">
-            <b-input v-model="firstName"></b-input>
-          </b-field>
-        </div>
-        <div class="column is-2">
-          <b-field label="Last Name">
-            <b-input v-model="lastName"></b-input>
-          </b-field>
-        </div>
-      </div>
-      <div class="columns is-centered">
-        <div class="column is-4">
-          <div class="field">
-          <label class="label">Email</label>
-            <input name="email" 
-              v-model="email" 
-              v-validate="'required|email'"
-              v-bind:class="{'is-danger': errors.has('email')}"
-              class="input"
-              type="email"
-              ref="email"
-              />
-          <p class="help is-danger" v-show="errors.has('email')">
-            {{ errors.first('email') }}
-          </p> 
-          </div>
-          <div class="field">
-            <label class="label">Phone</label>
-            <input
-            type="tel"
-            v-model="phone"
-            class="input"
-            v-mask="'(###)-###-####'"
-            v-validate="'required'"
-            >
-          </div>
-          <b-field label="Address 1">
-            <b-input v-model="address1"></b-input>
-          </b-field>
-          <b-field label="Address 2">
-            <b-input v-model="address2"></b-input>
-          </b-field>
-
-          <button class="button is-primary is-medium" @click="handleSubmit">Submit</button>
-        </div> -->
       </div>
   </div>
 </template>

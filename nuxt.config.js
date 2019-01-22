@@ -39,7 +39,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-buefy'
+    // 'nuxt-buefy'
   ],
 
   /*
