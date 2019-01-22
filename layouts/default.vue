@@ -48,6 +48,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -57,7 +58,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+$primary: #04B397;
+$link: $primary;
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

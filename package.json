@@ -1,6 +1,6 @@
 {
   "name": "cleaningnwf",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Cleaning NWF",
   "author": "Patrick Black Jr",
   "private": true,
@@ -18,6 +18,8 @@
     "nuxt-buefy": "^0.3.2"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^6.0.6"
   }
 }
