@@ -30,7 +30,7 @@
   <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All Rights Reserved. Web design and hosting by <a href="http://picreativemarketing.com">Perfect Imprints</a>.
+      &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All Rights Reserved. Web design and hosting by <a href="http://emeraldcoasthub.com">Emerald Coast Hub</a>.
     </p>
     <a style="color: #2AAFB8" href="https://https://www.facebook.com/homecleaningco">
       <b-icon
@@ -38,6 +38,9 @@
         size="is-large">
       </b-icon>
     </a>
+    <p>
+       <img width="200rem" src="/vetowned.png" alt="Home Cleaning Company, Inc. is veteran owned and operated." />
+    </p>
   </div>
 </footer>
 

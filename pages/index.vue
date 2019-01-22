@@ -108,19 +108,19 @@ export default {
       ],
       reasonsLine1: [
         {
-          icon: "./icons/icon1.png",
+          icon: "./icon1.png",
           title: "Save Time",
           subtitle: "You have better things to do with your time.",
           text: `'I don't have time. I have to clean the house.' Sound familiar? Maybe it's time you joined the millions of American households who have already turned to professional residential cleaning services as a solution to their housework problems.`
         },
         {
-          icon: "./icons/icon2.png",
+          icon: "./icon2.png",
           title: "We Do It Your Way",
           subtitle: "No two households are exactly the same.",
           text: `A Home Cleaning Company specialist first visits your home to determine your specific needs and our 'A-Z' Home Cleaning System is customized to your individual requirements.`
         },
         {
-          icon: "./icons/icon3.png",
+          icon: "./icon3.png",
           title: "We Are Thorough",
           subtitle: "Because we clean in teams.",
           text: `We clean homes in teams because it is more efficient. Our 'A-Z' Home Cleaning System ensures that every job is consistently thorough. We work as a team, so it's easy for us to move a couch when vacuuming or to do other chores an individual housecleaner can't do.`
@@ -128,21 +128,21 @@ export default {
       ],
       reasonsLine2: [
         {
-          icon: "./icons/icon4.png",
+          icon: "./icon4.png",
           title: "Reliable",
           subtitle: "Our staff is responsible, reliable, and insured.",
           text: `Our house cleaning technicians are thoroughly screened, professionally trained, covered by workers compensation and compensated for results and customer satisfaction.
 We are locally owned, operated and licensed. Our staff consists of employees - not unsupervised independent contractors as is the case with many residential cleaning services and your assigned team will show up on time as scheduled, neatly groomed, always uniformed and ready to work.`
         },
         {
-          icon: "./icons/icon5.png",
+          icon: "./icon5.png",
           title: "Superior Equipment",
           subtitle: "We use vastly superior equipment.",
           text: `Conventional vacuum cleaners are largely inefficient, lose cleaning power quickly and exhaust fine particles and dust mites back into the room.
 We use the Big Vac, which cleans like ordinary vacuums can't. A technological edge in home cleaning superiority. Its unique patent-pending filtration system traps mold spores, bacteria, pollen, odors, dust mites and fine dust from the recirculating air passing through its exhaust. Clients with allergies, asthma and other respiratory problems especially appreciate this feature.`
         },
         {
-          icon: "./icons/icon6.png",
+          icon: "./icon6.png",
           title: "Safe Products",
           subtitle: "We use only safe, cleaning products.",
           text: `We always bring our proprietary cleaning products every time. The most conscientious and proficient home cleaning technician can't perform any better than the quality of the equipment or cleaning products being used. Each product is approved for safe use based on its effectiveness.`
@@ -150,17 +150,17 @@ We use the Big Vac, which cleans like ordinary vacuums can't. A technological ed
       ],
       reasonsLine3: [
         {
-          icon: "./icons/icon7.png",
+          icon: "./icon7.png",
           title: "Flexibility",
           subtitle: "We offer flexible scheduling."
         },
         {
-          icon: "./icons/icon8.png",
+          icon: "./icon8.png",
           title: "Affordable",
           subtitle: "We are a great value at an affordable price."
         },
         {
-          icon: "./icons/icon9.png",
+          icon: "./icon9.png",
           title: "FREE ESTIMATES",
           subtitle: "Contact us for a FREE estimate."
         }
