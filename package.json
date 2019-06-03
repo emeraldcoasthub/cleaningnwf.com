@@ -13,7 +13,7 @@
   "dependencies": {
     "buefy": "^0.7.3",
     "cross-env": "^5.2.0",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "nuxt": "^2.7.1",
     "nuxt-buefy": "^0.3.4"
   },
