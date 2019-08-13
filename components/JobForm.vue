@@ -4,9 +4,9 @@
       <ul class="has-text-centered">
         <li>Monday - Friday, hours are approximately 8am - 2pm, no nights or weekends.</li>
         <li>Year round employment.</li>
-        <li>Team cleaning, 2-3 person teams.</li>
-        <li>$12 - $14 per hour, paid weekly.</li>
-        <li>Must have a valid drivers license &amp; reliable insured automobile.</li>
+        <li>Solo and Team cleaning, 2-3 person teams.</li>
+        <li>$15 during training. $20 - $27 after training.</li>
+        <li>Must have a valid drivers license &amp; reliable, insured automobile.</li>
         <li>Non-smoking workplace.</li>
         <li>Must have high energy and able able to lift 50 lbs.</li>
         <li>Reliable and serious need only apply.</li>
