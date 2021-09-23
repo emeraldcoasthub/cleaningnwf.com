@@ -16,6 +16,14 @@ export default {
   name: "jobs",
   components: {
     JobForm
+  },
+  head () {
+    return {
+      title: "Jobs - Home Cleaning Company in Northwest Florida",
+      meta: [
+        { hid: 'description', name: 'description', content: 'Apply to work with us today.' }
+      ]
+    }
   }
 };
 </script>

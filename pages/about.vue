@@ -49,6 +49,11 @@ export default {
     return {
       pageTitle: "About Us"
     }
+  },
+  head () {
+    return {
+      title: "About Us - Home Cleaning Company in Northwest Florida",
+    }
   }
 };
 </script>

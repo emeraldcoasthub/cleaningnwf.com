@@ -69,6 +69,11 @@ export default {
         }
       ]
     };
+  },
+  head () {
+    return {
+      title: "Frequently Asked Questions - Home Cleaning Company in Northwest Florida",
+    }
   }
 };
 </script>

@@ -58,10 +58,10 @@
 
 <script>
 export default {
-  data() {
+  head () {
     return {
-      pageTitle: "Contact us"
-    };
+      title: "Contact Us - Home Cleaning Company in Northwest Florida",
+    }
   }
 };
 </script>
