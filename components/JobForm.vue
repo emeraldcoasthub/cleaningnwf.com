@@ -14,8 +14,9 @@
         <li>Please fill all applicable blanks below when submitting your application.</li>
       </ul>
       <div class="columns is-centered inputs" id="form">
-        <div class="column is-12">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBNFJVJSyflF_XcBvz8tJO_4qIRoa6EL5AfuA6gyEge6gPYQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <div class="column is-12 has-text-centered">
+          <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBNFJVJSyflF_XcBvz8tJO_4qIRoa6EL5AfuA6gyEge6gPYQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+          <a target="new" href="https://docs.google.com/forms/d/e/1FAIpQLSfBNFJVJSyflF_XcBvz8tJO_4qIRoa6EL5AfuA6gyEge6gPYQ/viewform" class="button is-primary is-large">View application</a>
         </div>
       </div>
   </div>
