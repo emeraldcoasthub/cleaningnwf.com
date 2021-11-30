@@ -1,5 +1,15 @@
 <template>
   <div id="app">
+    <!-- Global site tag (gtag.js) - Google Analytics →
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8294747-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-8294747-9');
+    </script>
+
     <div id="nav">
       <nav class="navbar is-teal" role="navigation" aria-label="main navigation">
       <div class="container is-widescreen">
