@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- Global site tag (gtag.js) - Google Analytics →
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8294747-9"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
