@@ -40,7 +40,7 @@
   <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All Rights Reserved. Web design and hosting by <a href="http://emeraldcoasthub.com">Emerald Coast Hub</a>.
+      &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All Rights Reserved. Web design and hosting by <a href="https://perfectimprints.com">Perfect Imprints: Creative Marketing</a>.
     </p>
     <a style="color: #2AAFB8" href="https://https://www.facebook.com/homecleaningco">
       <b-icon
