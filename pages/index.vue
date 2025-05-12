@@ -3,7 +3,10 @@
     <div class="slide image is-centered">
       <div class="columns is-centered">
         <div class="column is-10">
-          <img src="~assets/slide.jpg" alt="Call now for your free estimate: 863-4675. Celebrating 26 years!" />
+          <img
+            src="~assets/slide.png"
+            alt="Call now for your free estimate: (850) 206-8453. Celebrating 26 years!"
+          />
         </div>
       </div>
     </div>
@@ -13,7 +16,11 @@
       </div>
     </div>
     <div class="reasons columns is-centered">
-      <div v-bind:key="reason" v-for="reason in reasonsLine1" class="column is-3">
+      <div
+        v-bind:key="reason"
+        v-for="reason in reasonsLine1"
+        class="column is-3"
+      >
         <div class="box">
           <img class="is-pulled-left" :src="reason.icon" />
           <h3 class="title is-4 has-text-white">{{ reason.title }}</h3>
@@ -23,7 +30,11 @@
       </div>
     </div>
     <div class="reasons columns is-centered">
-      <div v-bind:key="reason" v-for="reason in reasonsLine2" class="column is-3">
+      <div
+        v-bind:key="reason"
+        v-for="reason in reasonsLine2"
+        class="column is-3"
+      >
         <div class="box">
           <img class="is-pulled-left" :src="reason.icon" />
           <h3 class="title is-4 has-text-white">{{ reason.title }}</h3>
@@ -33,7 +44,11 @@
       </div>
     </div>
     <div class="reasons columns is-centered">
-      <div v-bind:key="reason" v-for="reason in reasonsLine3" class="column is-3">
+      <div
+        v-bind:key="reason"
+        v-for="reason in reasonsLine3"
+        class="column is-3"
+      >
         <div class="box">
           <img class="is-pulled-left" :src="reason.icon" />
           <h3 class="title is-4 has-text-white">{{ reason.title }}</h3>
@@ -47,25 +62,40 @@
         <div class="columns is-centered">
           <div class="columm is-6">
             <h2 class="title is-1">Isn't Your Time More Valuable?</h2>
-            <h3 class="subtitle is-4">Let us do your cleaning while you enjoy life!</h3>
-            <nuxt-link class="button is-large" to="/about">Request your free estimate</nuxt-link>
+            <h3 class="subtitle is-4">
+              Let us do your cleaning while you enjoy life!
+            </h3>
+            <nuxt-link class="button is-large" to="/about"
+              >Request your free estimate</nuxt-link
+            >
           </div>
           <div class="columm is-4">
-            <p style="margin-top: 1em">"Time" is a commodity most busy people just don't seem to have enough of these days. 
-              For many upwardly mobile and dual income families today, the home we've worked so hard 
-              to obtain is a time-consuming chore to maintain.</p>
-            <p>Home Cleaning Company can give you more time to do these things you need to do and 
-              would rather be doing, instead of spending endless hours on mundane housework.</p>
+            <p style="margin-top: 1em">
+              "Time" is a commodity most busy people just don't seem to have
+              enough of these days. For many upwardly mobile and dual income
+              families today, the home we've worked so hard to obtain is a
+              time-consuming chore to maintain.
+            </p>
+            <p>
+              Home Cleaning Company can give you more time to do these things
+              you need to do and would rather be doing, instead of spending
+              endless hours on mundane housework.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <section class="section">
       <div class="container">
-        <h2 class="title is-3 has-text-centered">THE HOME CLEANING COMPANY "A-Z" HOME CLEANING SYSTEM INCLUDES:</h2>
+        <h2 class="title is-3 has-text-centered">
+          THE HOME CLEANING COMPANY "A-Z" HOME CLEANING SYSTEM INCLUDES:
+        </h2>
         <div class="columns is-centered">
-
-          <div v-bind:key="include" v-for="include in includes" class="column is-3">
+          <div
+            v-bind:key="include"
+            v-for="include in includes"
+            class="column is-3"
+          >
             <div class="box has-text-white has-text-weight-semibold">
               <h3 class="title has-text-white is-3">{{ include.title }}</h3>
               <p>{{ include.text }}</p>
@@ -78,7 +108,7 @@
 </template>
 
 <script>
-import QuoteForm from '@/components/QuoteForm.vue';
+import QuoteForm from "@/components/QuoteForm.vue";
 
 export default {
   components: {
@@ -86,25 +116,30 @@ export default {
   },
   data() {
     return {
-      pageTitle: 'Home Cleaning Company - Fort Walton Beach - Destin - Niceville',
+      pageTitle:
+        "Home Cleaning Company - Fort Walton Beach - Destin - Niceville",
       title: "8 Important Reasons Why You Should Let Us Clean Your Home",
       includes: [
         {
-          title: 'General Cleaning',
-          text: 'Dust, polish or wipe all furnishings, baseboards, window sills, and shelves. Vacuum or mop all floors; carpet or bare.'
+          title: "General Cleaning",
+          text:
+            "Dust, polish or wipe all furnishings, baseboards, window sills, and shelves. Vacuum or mop all floors; carpet or bare."
         },
         {
-          title: 'Kitchen',
-          text: 'Clean sink, counter tops, outside of cupboards and drawer fronts, refrigerator, stove, other appliances and floor.'
+          title: "Kitchen",
+          text:
+            "Clean sink, counter tops, outside of cupboards and drawer fronts, refrigerator, stove, other appliances and floor."
         },
         {
-          title: 'Bathrooms',
-          text: 'Clean and disinfect tub, showers, toilets and floor. We also clean and polish sinks, fixtures, vanities and mirrors.'
+          title: "Bathrooms",
+          text:
+            "Clean and disinfect tub, showers, toilets and floor. We also clean and polish sinks, fixtures, vanities and mirrors."
         },
         {
-          title: 'Special Tasks',
-          text: 'Ovens, refrigerators, patios, and decks. Change linens. Moving day cleanups as well as spring, and fall cleanings.'
-        },
+          title: "Special Tasks",
+          text:
+            "Ovens, refrigerators, patios, and decks. Change linens. Moving day cleanups as well as spring, and fall cleanings."
+        }
       ],
       reasonsLine1: [
         {
@@ -167,14 +202,18 @@ We use the Big Vac, which cleans like ordinary vacuums can't. A technological ed
       ]
     };
   },
-  head () {
+  head() {
     return {
       title: this.pageTitle,
       meta: [
-        { hid: 'description', name: 'description', content: 'Let us clean your home. We are professionals.' }
+        {
+          hid: "description",
+          name: "description",
+          content: "Let us clean your home. We are professionals."
+        }
       ]
-    }
-  },
+    };
+  }
 };
 </script>
 

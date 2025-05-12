@@ -1,64 +1,94 @@
 <template>
   <div id="app">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8294747-9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-8294747-9');
-    </script>
-
     <div id="nav">
-      <nav class="navbar is-teal" role="navigation" aria-label="main navigation">
-      <div class="container is-widescreen">
-        <div class="navbar-brand">
-        <a href="/"><img src="~assets/logo.png" width="auto" height="50"></a>
+      <nav
+        class="navbar is-teal"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="container is-widescreen">
+          <div class="navbar-brand">
+            <a href="/"
+              ><img src="/assets/logo.png" width="auto" height="50"
+            /></a>
 
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              @click="showNav = !showNav"
+              :class="{ 'is-active': showNav }"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
 
-      <div class="navbar-menu" :class="{ 'is-active': showNav }">
-        <div class="navbar-end">
-          <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
-          <nuxt-link class="navbar-item" to="/about">About</nuxt-link>
-          <nuxt-link class="navbar-item" to="/faq">FAQs</nuxt-link>
-          <nuxt-link class="navbar-item" to="/jobs">Jobs</nuxt-link>
-          <nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link>
+          <div class="navbar-menu" :class="{ 'is-active': showNav }">
+            <div class="navbar-end">
+              <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
+              <nuxt-link class="navbar-item" to="/about">About</nuxt-link>
+              <nuxt-link class="navbar-item" to="/faq">FAQs</nuxt-link>
+              <nuxt-link class="navbar-item" to="/jobs">Jobs</nuxt-link>
+              <nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link>
+            </div>
+          </div>
         </div>
-      </div>
+      </nav>
+      <NuxtPage />
     </div>
-    </nav>
-    <nuxt/>
-  </div>
 
-  <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All Rights Reserved. Web design and hosting by <a href="https://perfectimprints.com">Perfect Imprints: Creative Marketing</a>.
-    </p>
-    <a style="color: #2AAFB8" href="https://https://www.facebook.com/homecleaningco">
-      <b-icon
-        icon="facebook"
-        size="is-large">
-      </b-icon>
-    </a>
-    <p>
-       <img width="200rem" src="/vetowned.png" alt="Home Cleaning Company, Inc. is veteran owned and operated." />
-    </p>
-  </div>
-</footer>
-
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          &copy; {{ new Date().getFullYear() }} Home Cleaning Company. All
+          Rights Reserved. Web design and hosting by
+          <a href="https://perfectimprints.com"
+            >Perfect Imprints: Creative Marketing</a
+          >.
+        </p>
+        <a
+          style="color: #2aafb8"
+          href="https://https://www.facebook.com/homecleaningco"
+        >
+          <b-icon icon="facebook" size="is-large"> </b-icon>
+        </a>
+        <p>
+          <img
+            width="200rem"
+            src="/vetowned.png"
+            alt="Home Cleaning Company, Inc. is veteran owned and operated."
+          />
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
-<script>
+<script setup>
+import { useHead } from "#imports";
 
+useHead({
+  script: [
+    {
+      src: "https://www.googletagmanager.com/gtag/js?id=UA-8294747-9",
+      async: true
+    },
+    {
+      children: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-8294747-9');
+      `
+    }
+  ]
+});
+</script>
+
+<script>
 export default {
   data() {
     return {
@@ -68,11 +98,10 @@ export default {
 };
 </script>
 
-<style lang="scss">
-$primary: #04B397;
-$link: $primary;
-@import "~bulma";
-@import "~buefy/src/scss/buefy";
+<style lang="css">
+a {
+  color: #2aafb8;
+}
 
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -92,6 +121,16 @@ $link: $primary;
   background-color: #50b098;
   border-bottom: 12px solid #377e7f;
 }
+
+a.navbar-item:focus {
+  background-color: #50b098;
+}
+
+.button.is-primary {
+  background-color: #50b098 !important;
+  color: white;
+}
+
 a.navbar-item:hover,
 a.navbar-item.is-active,
 .navbar-link:hover,
@@ -105,6 +144,6 @@ a.navbar-item.is-active,
   background-color: #50b098;
 }
 .footer {
-    padding: 3rem 1.5rem 3rem !important;
+  padding: 3rem 1.5rem 3rem !important;
 }
 </style>
