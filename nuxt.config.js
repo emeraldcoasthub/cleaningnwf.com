@@ -16,5 +16,8 @@ export default {
   ],
   build: {
     // Add build customizations if needed
+  },
+  nitro: {
+    preset: "netlify-static"
   }
 };
