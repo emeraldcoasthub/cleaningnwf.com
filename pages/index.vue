@@ -157,8 +157,8 @@ export default {
         {
           icon: "./icon3.png",
           title: "We Are Thorough",
-          subtitle: "Because we clean in teams.",
-          text: `We clean homes in teams because it is more efficient. Our 'A-Z' Home Cleaning System ensures that every job is consistently thorough. We work as a team, so it's easy for us to move a couch when vacuuming or to do other chores an individual housecleaner can't do.`
+          subtitle: "Thoroughness is at the core of how we clean.",
+          text: `Our proven A-Z Home Cleaning System ensures every applicable area of your home is cleaned carefully and consistently from start to finish. Each step of the process is designed so nothing gets overlooked.`
         }
       ],
       reasonsLine2: [
